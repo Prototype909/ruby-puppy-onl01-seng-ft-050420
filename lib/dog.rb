@@ -7,4 +7,10 @@ class Dog
     @name = name
     @@all << name
   end
+
+  def self.all 
+    @@all.each do
+      puts name
+    end
+  end 
 end
